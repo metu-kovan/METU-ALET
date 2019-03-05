@@ -59,11 +59,10 @@ The scenes that we consider also introduce several challenges for the object det
 
 For tool detection in the wild, we trained several state of the art deep object detectors, namely, <a href="https://arxiv.org/abs/1506.01497">Faster R-CNN</a>, <a href="https://arxiv.org/abs/1512.02325">SSD</a>, <a href="https://arxiv.org/abs/1506.02640">YOLO</a> and <a href="https://arxiv.org/abs/1708.02002">RetinaNet</a>. The following table summarizes the mAP results for each one of the deep object detectors.
 
-/* Example values are being used for the time being */
 
-| Faster-RCNN | YOLO | RetinaNet |
+<!--| Faster-RCNN | YOLO | RetinaNet |
 | --- | --- | --- |
-| 0.52 | 0.61 | 0.53 |
+| 0.52 | 0.61 | 0.53 |-->
 
 ## “Wearing Helmet?”: A Critical and Practical Usage of the METU-ALET Dataset
 
