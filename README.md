@@ -66,7 +66,7 @@ For tool detection in the wild, we trained several state of the art deep object 
 
 ## “Wearing Helmet?”: A Critical and Practical Usage of the METU-ALET Dataset
 
-“Wearing Helmet?” is a usecase for METU-ALET, through which we are able to judge the safeness of the enviroments where the robots and humans work collaboratively. As the dataset contains ___ instances of safety helmet, this information is used in order to train a tool detector and a human detector & pose estimator. By the help of these detectors, the robots are able to determine whether the human in the scene wears a safety helmet or not. Therefore, problems related to the safety issues in critical scenes can be solved accordingly.
+“Wearing Helmet?” is a usecase for METU-ALET, through which we are able to judge the safeness of the enviroments where the robots and humans work collaboratively. As the dataset contains 1037 instances of safety helmet, this information is used in order to train a tool detector and a human detector & pose estimator. By the help of these detectors, the robots are able to determine whether the human in the scene wears a safety helmet or not. Therefore, problems related to the safety issues in critical scenes can be solved accordingly.
 
 <p float="left">
   <img src="data/samples/wikimgs_construction103.jpg" width="400"/> 
