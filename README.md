@@ -72,7 +72,11 @@ For tool detection in the wild, we trained several state of the art deep object 
   <img src="data/samples/wikimgs_construction103.jpg" width="400"/> 
   <img src="data/samples/wikimgs_construction108.jpg" width="400"/>
 </p>
-
+## The Dataset
+First version of the ALET Dataset is accesible from following links.
+The full ALET DATASET <a href="kovan.ceng.metu.edu.tr/~fkurnaz/ALET"> link</a>
+Without any synthetic additions <a href="kovan.ceng.metu.edu.tr/~fkurnaz/ALET_withoutSynthetic"> link</a>
+We are currently working on a new version of this Dataset.
 ## Citation
 
 If you use the METU-ALET dataset or the related resources shared here, please cite the following work:
