@@ -78,7 +78,6 @@ For tool detection in the wild, we trained several state of the art deep object 
 The first version of the ALET Dataset is accessible from following links.
 
 * The full ALET DATASET http://kovan.ceng.metu.edu.tr/~fkurnaz/ALET
-* Without any synthetic http://kovan.ceng.metu.edu.tr/~fkurnaz/ALET_withoutSynthetic
 
 We are currently working on a new version of this Dataset.
 
