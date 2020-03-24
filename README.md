@@ -11,7 +11,7 @@ Most of the scenes that reside in the dataset are not generated or constructed; 
 The images that reside in the METU-ALET dataset can be split into three categories: 
 
 ### 1) Downloaded and Crawled Data
-These are the images that are downloaded and crawled from the Internet. The websites that are used to gather the images are the following: Creativecommons, Wikicommons, Flickr, Pexels, Unsplash, Shopify, Pixabay, Everystock, Imfree. It should also be noted that while crawling and downloading images from these websites, license issues had also been considered. Therefore, we have only taken the royalty-free images from these websites. These type of images in the dataset contains 9262 bounding boxes.
+These are the images that are downloaded and crawled from the Internet. The websites that are used to gather the images are as the following: Creativecommons, Wikicommons, Flickr, Pexels, Unsplash, Shopify, Pixabay, Everystock, Imfree. It should also be noted that while crawling and downloading images from these websites, license issues had also been considered. Therefore, we have only taken the royalty-free images from these websites. These type of images in the dataset contains 9262 bounding boxes.
 
 <table>
   <tr>
@@ -35,13 +35,13 @@ These are the images that are photographed by ourselves that are mostly consisti
 </table>
 
 ### 3) Synthetic data
-In order to make sure that there are at east 200 instances for each tool, we developed a simulation environment and collected synthetic images . For this, we used the Unity3D platform with 3D models of tools acquired from UnityStore. For each scene to be generated, the following steps are followed:
+In order to make sure that there are at least 200 instances for each tool, we developed a simulation environment and collected synthetic images. For this, we used the Unity3D platform with 3D models of tools acquired from UnityStore. For each scene to be generated, the following steps are followed:
     
-* Scene Background: We created a room like environment with 4 walls, 10 different random objects (chair, sofa, corner-piece, television) in static positions. At the center of the room, we spawned one of six different tables selected randomly from $Uniform(1, 6)$. To introduce more randomness, we also dropped unrelated objects like mugs, bottles etc. randomly.
-* Camera: Each dimension of the camera position (x, y, z) was sampled randomly from $Uniform(-3, 3)$. Camera's viewing direction was set towards the center of the top of the table.
-* Tools: In each scene, we spawned $N \sim Uniform(5,20)$ tools which are selected randomly from $Uniform(1,49)$. The spawn tools are dropped onto the table from $[x,y,z]$ selected randomly from $Uniform(0, 1)$ above the table. Initial orientation (each dimension) is sampled from $Uniform(0,360)$.
+* Scene Background: We created a room like environment with 4 walls, 10 different random objects (chair, sofa, corner-piece, television) in static positions. At the center of the room, we spawned one of six different tables selected randomly from _Uniform(1, 6)_. To introduce more randomness, we also dropped unrelated objects like mugs, bottles randomly.
+* Camera: Each dimension of the camera position (x, y, z) was sampled randomly from _Uniform(-3, 3)_. The viewing direction of camera was set towards the center of the top of the table.
+* Tools: In each scene, we spawned _N ~ Uniform(5,20)_ tools which are selected randomly from _Uniform(1,49)_. The spawn tools are dropped onto the table from _[x,y,z]_ selected randomly from _Uniform(0, 1)_ above the table. Initial orientation (of each dimension) is sampled as an angle from _Uniform(0,360)_.
 
-The special cases when the sampled camera not seeing the table-top etc. are handled using hand-designed rules.
+The special cases such as the ones when the sampled camera did not see the table-top are handled using hand-designed rules.
 
 ## Why need METU-ALET dataset?
 Through the recent advancements in the field of robotics, we have come to a point where humans and robots will be performing tasks in a collaborative manner. By the help of this dataset, we aim to solve the object detection tasks where robots will be able to detect tools that can be grabed or carried by them. As the definition of a tool is too broad, it had been decided to consider only the tools for the dataset which can be manipulated by the robots.
@@ -74,7 +74,7 @@ The scenes that we consider also introduce several challenges for the object det
 
 We created a CNN architecture consisting of three 2D convolutional layers and two fully connected layers. After each convolutional layer we added a batch normalization layer, and  each layer is also followed by ReLu activation. The final layer has five outputs with sigmoid activation. The network performs five-class (one for each safety tool) multi-label classification with binary cross-entropy. The network is trained on ALET Safety Dataset.
 
-An alternative approach could be to combine the results of the tool detector and the pose detector. However, considering that the tool detection networks are having acceptable performance, we adopted an independent network for safety detection. Moreover, a tool detector would be detecting 49 tools in a scene 43 of which are irrelevant for our safety usecase. 
+An alternative approach could be to combine the results of the tool detector and the pose detector. However, considering that the tool detection networks are having acceptable performance, we adopted an independent network for safety detection. Moreover, a tool detector would be detecting 49 tools in a scene where 43 of which are irrelevant for our safety usecase. 
 <p float="left">
   <img src="data/samples/wikimgs_construction103.jpg" width="400"/> 
   <img src="data/samples/wikimgs_construction108.jpg" width="400"/>
