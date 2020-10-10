@@ -1,7 +1,7 @@
 # METU-ALET: A Dataset for Tool Detection in the Wild
 ALET is an abbreviation for Autameted Labeling of Equipment and Tools. In Turkish, it also stands for the word “tool”.
 
-METU-ALET is an image dataset for the detection of the tools in the wild. We provide an extensive dataset in order to detect tools that belongs to the categories such as farming, gardening, office, stonemasonry, vehicle, woodworking and workshop. The images in the dataset contains a total of 15612 bounding boxes and 53 different tool categories.  
+METU-ALET is an image dataset for the detection of the tools in the wild. We provide an extensive dataset in order to detect tools that belongs to the categories such as farming, gardening, office, stonemasonry, vehicle, woodworking and workshop. The images in the dataset contains a total of 22841 bounding boxes and 49 different tool categories.  
 
 <!--Please visit ____ for more information on the METU-ALET dataset including the data and the paper.-->
 
@@ -11,7 +11,7 @@ Most of the scenes that reside in the dataset are not generated or constructed; 
 The images that reside in the METU-ALET dataset can be split into three categories: 
 
 ### 1) Downloaded and Crawled Data
-These are the images that are downloaded and crawled from the Internet. The websites that are used to gather the images are as the following: Creativecommons, Wikicommons, Flickr, Pexels, Unsplash, Shopify, Pixabay, Everystock, Imfree. It should also be noted that while crawling and downloading images from these websites, license issues had also been considered. Therefore, we have only taken the royalty-free images from these websites. These type of images in the dataset contains 9262 bounding boxes.
+These are the images that are downloaded and crawled from the Internet. The websites that are used to gather the images are as the following: Creativecommons, Wikicommons, Flickr, Pexels, Unsplash, Shopify, Pixabay, Everystock, Imfree. It should also be noted that while crawling and downloading images from these websites, license issues had also been considered. Therefore, we have only taken the royalty-free images from these websites. These type of images in the dataset contains 11114 bounding boxes.
 
 <table>
   <tr>
