@@ -23,7 +23,7 @@ These are the images that are downloaded and crawled from the Internet. The webs
 </table>
 
 ### 2) Photographed Data
-These are the images that are photographed by ourselves that are mostly consisting of office and workshop scenes. The images in the METU-ALET dataset contains 820 bounding boxes related to this type of data.
+These are the images that are photographed by ourselves that are mostly consisting of office and workshop scenes. The images in the METU-ALET dataset contains 765 bounding boxes related to this type of data.
 
 <table>
   <tr>
