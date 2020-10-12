@@ -84,7 +84,7 @@ An alternative approach could be to combine the results of the tool detector and
 
 The first version of the ALET Dataset is accessible from following links.
 
-* The revised ALET DATASET is available http://kovan.ceng.metu.edu.tr/~fkurnaz/ALET/ALET.zip
+* The revised ALET DATASET is available http://kovan.ceng.metu.edu.tr/ALET/ALET.zip
 
 
 ## Citation
