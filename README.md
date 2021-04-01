@@ -1,7 +1,13 @@
 # METU-ALET: A Dataset for Tool Detection in the Wild
 ALET is an abbreviation for Autameted Labeling of Equipment and Tools. In Turkish, it also stands for the word “tool”.
 
-METU-ALET is an image dataset for the detection of the tools in the wild. We provide an extensive dataset in order to detect tools that belongs to the categories such as farming, gardening, office, stonemasonry, vehicle, woodworking and workshop. The images in the dataset contains a total of 22841 bounding boxes and 49 different tool categories.  
+METU-ALET is an image dataset for the detection of the tools in the wild. We provide an extensive dataset in order to detect tools that belongs to the categories such as farming, gardening, office, stonemasonry, vehicle, woodworking and workshop. The images in the dataset contains a total of 22841 bounding boxes and 49 different tool categories.
+
+For more information, please check out the paper:
+
+F. C. Kurnaz, B. Hocaoglu, M. K. Yilmaz, I. Sulo, S. Kalkan, "ALET (Automated Labeling of Equipment and Tools): A Dataset, a Baseline and a Usecase for Tool Detection in the Wild", ECCV2020 Workshop on International Workshop on Assistive Computer Vision and Robotics, 2020. 
+
+[[Arxiv](https://arxiv.org/abs/1910.11713)], [[Springer copy](https://link.springer.com/chapter/10.1007/978-3-030-66823-5_22)]
 
 <!--Please visit ____ for more information on the METU-ALET dataset including the data and the paper.-->
 
@@ -91,11 +97,13 @@ The first version of the ALET Dataset is accessible from following links.
 
 If you use the METU-ALET dataset or the related resources shared here, please cite the following work:
 <pre>
-@article{KurnazEtAl2019,
-    author = {Kurnaz, F. C. and Hocaoglu, B. and Yilmaz, K. M. and Sulo, I. and Kalkan, S.},
-    title = {ALET (Automated Labeling of Equipment and Tools): A Dataset, a Baseline and a Usecase for Tool Detection in the Wild},
-    journal = {arxiv preprint},
-    year = {2019}
+@inproceedings{METU_ALET,
+  title={ALET (Automated Labeling of Equipment and Tools): A Dataset for Tool Detection and Human Worker Safety Detection},
+  author={Kurnaz, Fatih Can and Hocaog̃lu, Burak and Y{\i}lmaz, Mert Kaan and S{\"u}lo, {\.I}dil and Kalkan, Sinan},
+  booktitle={European Conference on Computer Vision Workshop on Assistive Computer Vision and Robotics},
+  pages={371--386},
+  year={2020},
+  organization={Springer}
 }
 </pre>
 
