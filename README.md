@@ -5,8 +5,7 @@ METU-ALET is an image dataset for the detection of the tools in the wild. We pro
 
 For more information, please check out the paper:
 
-F. C. Kurnaz, B. Hocaoglu, M. K. Yilmaz, I. Sulo, S. Kalkan, "ALET (Automated Labeling of Equipment and Tools): A Dataset, a Baseline and a Usecase for Tool Detection in the Wild", ECCV2020 Workshop on International Workshop on Assistive Computer Vision and Robotics, 2020. 
-
+[F. C. Kurnaz](https://www.linkedin.com/in/fatihcankurnaz/?originalSubdomain=tr), [B. Hocaoglu](https://www.linkedin.com/in/burak-hocaoglu-11a52511a/?originalSubdomain=tr), [M. K. Yilmaz](https://www.linkedin.com/in/mert-kaan-y%C4%B1lmaz/?originalSubdomain=tr), [I. Sulo](https://idilsulo.github.io/), [S. Kalkan](http://kovan.ceng.metu.edu.tr/~sinan/), ["ALET (Automated Labeling of Equipment and Tools): A Dataset, a Baseline and a Usecase for Tool Detection in the Wild"](https://link.springer.com/chapter/10.1007/978-3-030-66823-5_22), ECCV2020 Workshop on International Workshop on Assistive Computer Vision and Robotics, 2020. 
 [[Arxiv](https://arxiv.org/abs/1910.11713)], [[Springer copy](https://link.springer.com/chapter/10.1007/978-3-030-66823-5_22)]
 
 <!--Please visit ____ for more information on the METU-ALET dataset including the data and the paper.-->
@@ -76,7 +75,7 @@ The scenes that we consider also introduce several challenges for the object det
 | --- | --- | --- |
 | 0.52 | 0.61 | 0.53 |-->
 
-## “Safety Usecase?”: A Critical and Practical Usage of the METU-ALET Dataset
+## “Safety Usecase”: A Critical and Practical Usage of the METU-ALET Dataset
 
 We created a CNN architecture consisting of three 2D convolutional layers and two fully connected layers. After each convolutional layer we added a batch normalization layer, and  each layer is also followed by ReLu activation. The final layer has five outputs with sigmoid activation. The network performs five-class (one for each safety tool) multi-label classification with binary cross-entropy. The network is trained on ALET Safety Dataset.
 
@@ -86,12 +85,17 @@ An alternative approach could be to combine the results of the tool detector and
   <img src="data/samples/wikimgs_construction108.jpg" width="400"/>
 </p>
 
-## The Dataset
+## Downloading The Dataset
 
-The first version of the ALET Dataset is accessible from following links.
+The first version of the ALET Dataset is accessible from:
 
 * The revised ALET DATASET is available http://kovan.ceng.metu.edu.tr/ALET/ALET.zip
 
+## Copyright
+
+The METU-ALET dataset is copyright free for research and commercial purposes provided that suitable citation is provided (see below): 
+* The "downloaded" images are selected from copyright free images from Creativecommons, Wikicommons, Flickr, Pexels, Unsplash, Shopify, Pixabay, Everystock, Imfree. 
+* Our additions to the images (photographed and synthesized) as well as our object annotations are provided copyright free as well. 
 
 ## Citation
 
@@ -109,4 +113,4 @@ If you use the METU-ALET dataset or the related resources shared here, please ci
 
 ## Contact
 
-For questions or comments please contact Sinan Kalkan at skalkan [@] ceng.metu.edu.tr or visit http://kovan.ceng.metu.edu.tr/index.php/Main_Page.
+For questions or comments please contact Sinan Kalkan at "skalkan [@] ceng.metu.edu.tr" or visit http://kovan.ceng.metu.edu.tr/~sinan.
