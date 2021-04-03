@@ -1,7 +1,7 @@
 # METU-ALET: A Dataset for Tool Detection in the Wild
-ALET is an abbreviation for Autameted Labeling of Equipment and Tools. In Turkish, it also stands for the word “tool”.
+ALET is an abbreviation for Automated Labeling of Equipment and Tools. In Turkish, it also stands for the word “tool”.
 
-METU-ALET is an image dataset for the detection of the tools in the wild. We provide an extensive dataset in order to detect tools that belongs to the categories such as farming, gardening, office, stonemasonry, vehicle, woodworking and workshop. The images in the dataset contains a total of 22841 bounding boxes and 49 different tool categories.
+METU-ALET is an image dataset for the detection of the tools in the wild. We provide an extensive dataset in order to detect tools that belongs to the categories such as farming, gardening, office, stonemasonry, vehicle, woodworking and workshop. The images in the dataset contain a total of 22841 bounding boxes and 49 different tool categories.
 
 For more information, please check out the paper:
 
